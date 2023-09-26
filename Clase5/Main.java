@@ -1,8 +1,15 @@
 package Clase5;
 
-public class Main {
-    public static void main (String[] args){
+import java.util.Scanner;
 
-        System.out.println("primer  archivo subido desde intelligent  IDEA");
+public class Main {
+   public static void main (String[] args){
+        Scanner scanned = new Scanner(System.in);
+        String completeName = "";
+
+        System.out.println("¿Quién eres?");
+        completeName = scanned.nextLine();
+
+        System.out.println("El nombre completo es: " + completeName);
     }
 }

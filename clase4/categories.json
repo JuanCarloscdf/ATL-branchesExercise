@@ -1,0 +1,7 @@
+{
+  "category": "geografia",
+  "toAsk": "Cual es la capital de Bolivia",
+  "options": ["La Paz", "Sucree", "Titicaca"],
+  "answer": 0,
+  "description": "La capital del pais sur americano es La Paz fundada en 1895"
+}
